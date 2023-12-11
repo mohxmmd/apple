@@ -140,11 +140,11 @@ nav{
 
 
 #hero1{
-    background-image: url(images/hero_iphone15pro__i70z9oz3hj2i_small\ \(1\).jpg);
+    background-image: url(hero_iphone15pro__i70z9oz3hj2i_small\ \(1\).jpg);
 }
 
 #hero2{
-    background-image: url(images/hero_iphone15_announce__uuemlcwczn6u_small_2x\ \(1\).jpg);
+    background-image: url(hero_iphone15_announce__uuemlcwczn6u_small_2x\ \(1\).jpg);
 }
 
 /* video */
@@ -179,19 +179,19 @@ button{
 
 
 #promo1{
-    background-image: url(images/promo_mbp__ek7p477bkp6q_small_2x.jpg);
+    background-image: url(promo_mbp__ek7p477bkp6q_small_2x.jpg);
 }
 
 #promo2{
-    background-image: url(images/promo_apple_watch_ultra2_order__dyxqj5ia98om_small_2x.jpg);
+    background-image: url(promo_apple_watch_ultra2_order__dyxqj5ia98om_small_2x.jpg);
 }
 
 #promo3{
-    background-image: url(images/promo_ipad__fioegapg12qi_small_2x.jpg);
+    background-image: url(promo_ipad__fioegapg12qi_small_2x.jpg);
 }
 
 #promo4{
-    background-image: url(images/promo_imac__crg641tip4q6_small_2x.jpg);
+    background-image: url(promo_imac__crg641tip4q6_small_2x.jpg);
 }
 
 #promo5{
@@ -199,7 +199,7 @@ button{
 }
 
 #promo6{
-    background-image: url(images/promo_iphone_tradein__bugw15ka691e_small_2x.jpg);
+    background-image: url(promo_iphone_tradein__bugw15ka691e_small_2x.jpg);
 }
 
 #footer-big{
@@ -264,11 +264,11 @@ li{
         height: 73vh;
     }
     #hero1{
-        background-image: url(images/hero_iphone15pro__i70z9oz3hj2i_mediumtall_2x.jpg);
+        background-image: url(hero_iphone15pro__i70z9oz3hj2i_mediumtall_2x.jpg);
     }
     
     #hero2{
-        background-image: url(images/hero_iphone15_announce__uuemlcwczn6u_mediumtall_2x.jpg);
+        background-image: url(hero_iphone15_announce__uuemlcwczn6u_mediumtall_2x.jpg);
     }
 
     .promo-section{
@@ -364,11 +364,11 @@ li{
         height: 77vh;
     }
     #hero1{
-        background-image: url(images/hero_iphone15pro__i70z9oz3hj2i_largetall_2x.jpg);
+        background-image: url(hero_iphone15pro__i70z9oz3hj2i_largetall_2x.jpg);
     }
     
     #hero2{
-        background-image: url(images/hero_iphone15_announce__uuemlcwczn6u_largetall_2x.jpg);
+        background-image: url(hero_iphone15_announce__uuemlcwczn6u_largetall_2x.jpg);
     }
 
     .heading{
