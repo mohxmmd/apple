@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&family=Poppins:wght@500&display=swap');
+
+*{  
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+
+.responsive{
+    width: 100%;
+    height: auto;
+}
+
+#apple-logo{
+    margin-left: 3%;
+    fill: rgba(255, 255, 255, 0.800);
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 44px;
+    background-color: rgba(18, 18, 18, 0.800);
+    filter: blur(0.3px);
+    display: flex;
+    justify-content: space-between;
+    backdrop-filter: blur(0.3rem);
+    z-index: 10;
+
+}
+
+.nav-contents{
+    display: none;
+}
+
+.nav-contents a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.911);
+    font-weight: 200;
+
+}
+
+
+.nav-contents li{
+    list-style-type: none;
+    font-size: 12px;
+    
+  
+}
+
+.nav-icons{
+    display: flex;
+    margin-right: 2%;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-icons i{
+    color: white;
+    padding-right: 10%;
+    margin-right: 12px;
+}
+
+
+
+
+/* Main Section */
+
+.offer{
+    background-color: rgb(29, 29, 31);
+    width: 100%;
+    min-height: 90px;
+    height: auto;
+    font-size: 12px;
+    text-align: center;
+    padding-right: 2%;
+    padding-left: 3%;
+}
+
+.offer p{
+   padding-top: 50px;
+   margin-bottom: 0px;
+}
+
+.offer a{
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.dark{
+    color: black;
+}
+
+.light{
+    color: rgb(245, 245, 247);
+    fill: rgba(255, 255, 255, 0.800);
+}
+
+.heading{
+
+    padding-top: 10%;
+
+
+    font-size: 32px;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: .004em;
+    font-weight: 600;
+}
+
+.subheading{
+    font-size: 19px;
+    line-height: 1.21053;
+    font-weight: 400;
+    letter-spacing: 0em;
+    font-weight: 400;
+}
+
+.hero{
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 55vh;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.hero a{
+    text-decoration: none;
+    color: rgb(41, 151, 255);
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 400;
+    margin: 0 10px;
+}
+
+
+#hero1{
+    background-image: url(images/hero_iphone15pro__i70z9oz3hj2i_small\ \(1\).jpg);
+}
+
+#hero2{
+    background-image: url(images/hero_iphone15_announce__uuemlcwczn6u_small_2x\ \(1\).jpg);
+}
+
+/* video */
+
+.video-cotainer{
+    text-align: center;
+}
+
+.video{
+    width: 100%;
+    height: auto;
+    background-position: center;
+}
+
+button{
+
+        
+        background-color: white;
+        border-radius: 10%;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 20px;
+        margin-right: 10px;
+        margin-left: 10px;
+        border: none;
+    
+    }
+
+/*  */
+
+
+#promo1{
+    background-image: url(images/promo_mbp__ek7p477bkp6q_small_2x.jpg);
+}
+
+#promo2{
+    background-image: url(images/promo_apple_watch_ultra2_order__dyxqj5ia98om_small_2x.jpg);
+}
+
+#promo3{
+    background-image: url(images/promo_ipad__fioegapg12qi_small_2x.jpg);
+}
+
+#promo4{
+    background-image: url(images/promo_imac__crg641tip4q6_small_2x.jpg);
+}
+
+#promo5{
+    background-image: url(images/promo_airpods_pro_order__d8xv36p4uwae_small_2x\ \(1\).jpg);
+}
+
+#promo6{
+    background-image: url(images/promo_iphone_tradein__bugw15ka691e_small_2x.jpg);
+}
+
+#footer-big{
+    display: none;
+}
+
+
+
+footer{
+    background-color: #f5f5f7;
+    border: 0.1px solid #d2d2d7;
+    color: #6e6e73;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.0004px;
+    text-align: left;
+    overflow: hidden;
+}
+
+
+.footer-text{
+    padding: 10px;
+}
+
+.footer-button{
+    display: flex;
+    justify-content: space-between;
+    width: 97%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 0.01px solid rgba(60, 56, 56, 0.278);
+    text-align: left;
+    border-radius: 0px;
+    box-sizing: border-box;
+    padding-left: 1%;
+    padding-right: 2%;
+    font-weight: 350;
+}
+
+li{
+    list-style-type: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width:750px){
+    
+   
+    
+    .hero{
+        height: 73vh;
+    }
+    #hero1{
+        background-image: url(images/hero_iphone15pro__i70z9oz3hj2i_mediumtall_2x.jpg);
+    }
+    
+    #hero2{
+        background-image: url(images/hero_iphone15_announce__uuemlcwczn6u_mediumtall_2x.jpg);
+    }
+
+    .promo-section{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .promo{
+        height: 47vh;
+        width: 47%;
+        margin: 0px 5px 8px;
+    }
+}
+
+@media(min-width:850px){
+
+    nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #apple-logo{
+        display: none;
+    }
+
+    .nav-icons{
+        display: none;
+    }
+
+
+    
+
+    .nav-contents{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        max-width: 1000px;
+        /* height: 48px; */
+        justify-content: space-around;
+    
+
+    }
+    .navbar-toggler{
+
+        display: none;
+
+    }
+
+    .heading{
+
+        font-size: 3rem;
+
+    }
+
+    .subheading{
+        font-size: 1.7rem;
+    }
+
+    .promo .heading{
+        font-size: 2rem;
+    }
+
+    .promo .subheading{
+        font-size: 1.2rem;
+    }
+
+
+    #footer-small{
+        display: none;
+    }
+
+    #footer-big{
+        display: block;
+        height: 600px;
+        width: 100vw;
+        background-color: #f5f5f7;
+        color: #6e6e73;
+        border: 1px solid #d2d2d746;
+        font-size: 12px;
+        line-height: 16px;
+        padding-top: 15px;
+        font-weight: 350;
+        
+    }
+    
+
+}
+
+@media(min-width:1000px){
+
+    .hero{
+        height: 77vh;
+    }
+    #hero1{
+        background-image: url(images/hero_iphone15pro__i70z9oz3hj2i_largetall_2x.jpg);
+    }
+    
+    #hero2{
+        background-image: url(images/hero_iphone15_announce__uuemlcwczn6u_largetall_2x.jpg);
+    }
+
+    .heading{
+
+        padding-top: 4rem;
+        font-weight: 700;
+
+    }
+
+    .subheading{
+        padding-top: 0.4rem;
+    }
+
+    
+
+}
